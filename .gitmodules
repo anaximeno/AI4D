@@ -1,3 +1,3 @@
 [submodule "helpers/ai_utilities"]
-	path = helpers/ai_utilities
-	url = https://github.com/anaximeno/prairie-guy/ai_utilities.git
+	path = helpers/ai_utils
+	url = https://github.com/anaximeno/ai-utils.git
