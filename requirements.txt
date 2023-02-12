@@ -1,0 +1,6 @@
+icrawler
+python-magic
+fastprogress
+pandas
+numpy
+matplotlib

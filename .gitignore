@@ -1,3 +1,6 @@
+# Dataset for training, test, and validation
+data/dataset/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
