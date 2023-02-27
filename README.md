@@ -19,3 +19,8 @@ Execute the script with **--help** to find the options:
 ```bash
 python datasetter.py --help
 ```
+
+### Notebooks
+
+To use the notebooks you will first need to install jupyter on your computer and
+then execute it from the root of this directory.
