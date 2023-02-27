@@ -20,7 +20,7 @@ def download_images(keywords: list[str], imgs_per_class: int, output_dir: str, e
         print(' => Output directory is "%s"\n' % output_dir)
 
     for keyword in keywords:
-        image_download(search_text=keyword, n_images=imgs_per_class, image_dir=output_dir, engine='baidu')
+        image_download(search_text=keyword, n_images=imgs_per_class, image_dir=output_dir, engine=engine)
 
     if 'stats' not in kwargs or kwargs['stats'] is True:
         print(f' => Download finished, find the downloaded files at {output_dir!r}')
