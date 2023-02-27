@@ -12,7 +12,7 @@ from ai_utils import image_download
 
 DATASET_PATH = './data/dataset'
 PESTS_CSV_METADATA_PATH = './data/pestes e pragas - cabo verde.csv'
-DEFAULT_NUMBER_OF_IMAGES_PER_CLASS = 1000
+DEFAULT_NUMBER_OF_IMAGES_PER_CLASS = 200
 
 
 def download_images(keyworks: list[str], imgs_per_class: int, output_dir: str) -> None:
