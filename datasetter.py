@@ -37,4 +37,4 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    download_images(MAIN_SPECIES[0:2], imgs_per_class=args.n, output_dir=args.out_dir, engine=args.engine)
+    download_images(MAIN_SPECIES, imgs_per_class=args.n, output_dir=args.out_dir, engine=args.engine)

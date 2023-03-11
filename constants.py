@@ -4,10 +4,7 @@ DATASET_PATH = './data/dataset'
 
 PESTS_CSV_METADATA_PATH = './data/pestes e pragas - cabo verde.csv'
 
-# The MAIN_SPECIES are ordered by order of importance, calculated on the file
-# 'notebooks/Pests and Plagues - Analysis.ipynb'
-MAIN_SPECIES = [
-        'spodoptera frugiperda', 'helicoverpa armígera, heliothis', 'aleurodicus dispersus',
-        'nezara viridula', 'bandeireinica caboverdus', 'tetranychus cinnabarinus', 'tuta absoluta',
-        'dacus frontalis', 'brevicoryne brassicae', 'bemisia tabaci'
-]
+# These are the species we will initially train our model with.
+# It was chosen after some analysis which may be found on the
+# notebook at './notebooks/Pests and Plagues - Analysis.ipynb'
+MAIN_SPECIES = ['spodoptera frugiperda', 'nezara viridula']
