@@ -2,6 +2,8 @@ DEFAULT_NUMBER_OF_IMAGES_PER_CLASS = 100
 
 DATASET_PATH = './data/dataset'
 
+DEFAULT_SEARCH_ENGINE = 'bing'
+
 PESTS_CSV_METADATA_PATH = './data/pestes e pragas - cabo verde.csv'
 
 # These are the species we will initially train our model with.
